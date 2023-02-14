@@ -57,17 +57,17 @@ async def play(client, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"
+                        "✰ ᴏᴡɴᴇʀ ✰", url=f"https://t.me/pirokid"
                     ),
                     InlineKeyboardButton(
-                        "👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/Shayri_Music_Lovers"
+                        "✰ sᴜᴘᴘᴏʀᴛ ✰", url=f"https://t.me/noobcreator"
                     ),
                 ]
             ]
         )
         if replied:
             if replied.audio or replied.voice:
-                huehue = await replied.reply("👨‍⚖️ **Aɴᴀʟʏsɪɴɢ...**")
+                huehue = await replied.reply("👨‍⚖️ **ᴀɴᴀʟʏsɪɴɢ...**")
                 dl = await replied.download()
                 link = replied.link
                 if replied.audio:
@@ -115,7 +115,7 @@ async def play(client, m: Message):
                         hm, ytlink = await ytdl(url)
                         if hm == 0:
                             await huehue.edit(
-                                f"**YTDL ERROR ⚠️** ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/Dr_Asad_Ali)",
+                                f"**YTDL ERROR ⚠️** ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ - [ᴘɪʀᴏᴋɪᴅ](t.me/pirokid)",
                                 disable_web_page_preview=True,
                             )
                         else:
@@ -161,7 +161,7 @@ async def play(client, m: Message):
                     hm, ytlink = await ytdl(url)
                     if hm == 0:
                         await huehue.edit(
-                            f"**YTDL ERROR ⚠️** ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/Dr_Asad_Ali)",
+                            f"**YTDL ERROR ⚠️** ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ - [ᴘɪʀᴏᴋɪᴅ](t.me/pirokid)",
                             disable_web_page_preview=True,
                         )
                     else:
