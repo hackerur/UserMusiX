@@ -22,11 +22,11 @@ async def playlist(client, m: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                "❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"
+                                "✰ ᴏᴡɴᴇʀ ✰", url=f"https://t.me/pirokid"
                             ),
                             InlineKeyboardButton(
-                                "👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦",
-                                url=f"https://t.me/Shayri_Music_Lovers",
+                                "✰ sᴜᴘᴘᴏʀᴛ ✰",
+                                url=f"https://t.me/noobcreator",
                             ),
                         ]
                     ]
