@@ -78,26 +78,26 @@ async def on_end_handler(client, update: Update):
         op = await skip_current_song(chat_id)
         if op == 1:
             await bot.send_message(
-                chat_id, "🥺 **Nᴏᴛʜɪɴɢ ɪs ɪɴ ᴘʟᴀʏʟɪsᴛ ɪ'ᴍ ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ...**"
+                chat_id, "🥺 **ɴᴏᴛʜɪɴɢ ɪs ɪɴ ᴘʟᴀʏʟɪsᴛ ɪ'ᴍ ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ...**"
             )
         elif op == 2:
             await bot.send_message(
                 chat_id,
-                "**Eʀʀᴏʀ ᴀᴄᴄᴜʀᴇᴅ** \n**Cʟᴇᴀʀɪɴɢ ᴛʜᴇ ᴘʟᴀʏʟɪsᴛ ᴀɴᴅ ʟᴇᴀᴠɪɴɢ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ...**",
+                "**ᴇʀʀᴏʀ ᴏᴄᴄᴜʀᴇᴅ** \n**ᴄʟᴇᴀʀɪɴɢ ᴛʜᴇ ᴘʟᴀʏʟɪsᴛ ᴀɴᴅ ʟᴇᴀᴠɪɴɢ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ...**",
             )
         else:
             await bot.send_message(
-                chat_id, f"**🎧 Nᴏᴡ ᴘʟᴀʏɪɴɢ** \n[{op[0]}]({op[1]}) | `{op[2]}`"
+                chat_id, f"**🎧 ɴᴏᴡ ᴘʟᴀʏɪɴɢ** \n[{op[0]}]({op[1]}) | `{op[2]}`"
             )
             keyboard = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            "❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"
+                            "✰ ᴏᴡɴᴇʀ ✰", url=f"https://t.me/pirokid"
                         ),
                         InlineKeyboardButton(
-                            "👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦",
-                            url=f"https://t.me/Shayri_Music_Lovers",
+                            "✰ sᴜᴘᴘᴏʀᴛ ✰",
+                            url=f"https://t.me/noobcreator",
                         ),
                     ]
                 ]
